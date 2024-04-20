@@ -107,9 +107,9 @@ span {
 }
 
 /* Overflow styles */
-.o-hidden {
+/* .o-hidden {
   overflow: overlay;
-}
+} */
 
 .o-hidden a {
   color: #11212d;
@@ -129,6 +129,10 @@ span {
 }
 
 .container .row {
+  margin-top: 40px;
+}
+
+.about-us .container .row {
   margin-top: 90px;
 }
 
@@ -430,6 +434,15 @@ main img {
 }
 
 /* Margin and padding utilities */
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
 .mb-50 {
   margin-bottom: 50px !important;
 }
@@ -440,6 +453,10 @@ main img {
 
 .fw-600 {
   font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
 }
 
 .text-u {
@@ -528,7 +545,7 @@ main img {
 
 .about-us .img .stauts .item:first-of-type {
   background: #f5f5f5;
-  color: var(--dark-color);
+  color: #121a21;
 }
 
 .about-us .img .stauts .item h4 {
@@ -553,7 +570,7 @@ main img {
 
 .work-carousel .swiper-slide {
   padding: 0px 15px;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .work-carousel .content {
@@ -632,6 +649,18 @@ main img {
   font-size: 17px;
 }
 
+.work-carousel .swiper-slide-active .noraidus .cont {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.cont a {
+  color: #253745;
+}
+
 .work-carousel .simp-next,
 .work-carousel .simp-prev {
   color: #fff;
@@ -673,4 +702,116 @@ main img {
 
 .work-carousel .simp-prev {
   left: 30px;
+}
+
+.circle-bg .circle-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.circle-bg .gradient-circle {
+  position: absolute;
+  left: -250px;
+  top: 250px;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+  width: 500px;
+  height: 500px;
+  border-radius: 70%;
+  background-image: -webkit-linear-gradient(45deg, #059dff, #36c6f0);
+  background-image: -o-linear-gradient(45deg, #059dff, #36c6f0);
+  background-image: linear-gradient(45deg, #059dff, #36c6f0);
+  opacity: 0.25;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}
+
+.main-content {
+  /* background: #fff; */
+  position: relative;
+  z-index: 3;
+  overflow-x: hidden !important;
+}
+
+.section-padding {
+  padding: 70px 0;
+}
+
+.contact .form input,
+.contact .form textarea {
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.butn {
+  padding: 15px 35px;
+  font-size: 13px;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.butn.dark {
+  background: #222;
+  color: #fff;
+}
+
+.contact .cont-info h3 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.splitting.animated .char {
+  -webkit-animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation-delay: calc(30ms * var(--char-index));
+  animation-delay: calc(30ms * var(--char-index));
+}
+
+.splitting .whitespace {
+  width: 5px;
+}
+
+.contact .cont-info h3 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.contact .cont-info .item h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin: 10px 0;
+}
+
+.contact .cont-info .item h6 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.7;
+}
+
+.contact .cont-info .social a {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 13px;
 }
