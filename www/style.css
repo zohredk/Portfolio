@@ -107,9 +107,9 @@ span {
 }
 
 /* Overflow styles */
-.o-hidden {
+/* .o-hidden {
   overflow: overlay;
-}
+} */
 
 .o-hidden a {
   color: #11212d;
