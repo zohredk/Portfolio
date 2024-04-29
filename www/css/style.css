@@ -634,7 +634,7 @@ main img {
 }
 
 .work-carousel .noraidus .cont h6 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -642,11 +642,11 @@ main img {
 }
 
 .work-carousel .content .cont h4 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .work-carousel .noraidus .cont h4 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .work-carousel .swiper-slide-active .noraidus .cont {
@@ -670,6 +670,11 @@ main img {
 
 .work-carousel .simp-next {
   right: 30px;
+}
+
+.fa-brands,
+.fa-solid {
+  color: black;
 }
 
 .simple-btn {
@@ -713,7 +718,7 @@ main img {
   z-index: 5;
 }
 
-.circle-bg .gradient-circle {
+/* .circle-bg .gradient-circle {
   position: absolute;
   left: -250px;
   top: 250px;
@@ -729,7 +734,7 @@ main img {
   opacity: 0.25;
   -webkit-filter: blur(100px);
   filter: blur(100px);
-}
+} */
 
 .main-content {
   /* background: #fff; */
@@ -794,14 +799,18 @@ main img {
 .contact .cont-info .item h5 {
   font-size: 16px;
   font-weight: 400;
-  color: #333;
+  color: gainsboro;
   margin: 10px 0;
 }
 
+.contact .cont-info .item h5 a {
+  color: gainsboro;
+}
+
 .contact .cont-info .item h6 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
-  color: #555;
+  color: gainsboro;
   line-height: 1.7;
 }
 
@@ -814,4 +823,9 @@ main img {
   border-radius: 50%;
   margin-right: 5px;
   font-size: 13px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
 }
