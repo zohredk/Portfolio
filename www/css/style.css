@@ -672,9 +672,14 @@ main img {
   right: 30px;
 }
 
-.fa-brands,
-.fa-solid {
+.work-carousel .fa-brands,
+.work-carousel .fa-solid {
   color: black;
+}
+
+.home .fa-brands,
+.fa-solid {
+  color: white;
 }
 
 .simple-btn {
