@@ -62,7 +62,7 @@ h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   color: #999;
@@ -402,7 +402,7 @@ a:hover {
 .home .img {
   background: #12141c;
   height: 100vh;
-  padding: 30px;
+  padding: 2px;
 }
 .home .img .pattern {
   position: relative;
@@ -420,7 +420,7 @@ a:hover {
 }
 .home .img img {
   position: relative;
-  margin-left: 150px;
+  margin-left: 130px;
   z-index: 2;
 }
 .home .content:after {
