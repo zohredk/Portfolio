@@ -330,8 +330,8 @@ a:hover {
 -----------------------------------------------------------------*/
 .logo {
   position: absolute;
-  top: 30px;
-  left: 30px;
+  top: 20px;
+  left: 20px;
   z-index: 9999999999;
   width: 70px;
 }
@@ -353,8 +353,8 @@ a:hover {
 
 .menu-button {
   position: absolute;
-  top: 0;
-  left: calc(100% - 85px);
+  top: 20px;
+  left: calc(100% - 87px);
   background: #2a2a2e;
   border: 15px solid #2a2a2e;
   padding: 20px;
@@ -888,8 +888,8 @@ a:hover {
 }
 .portfolio .item-img-overlay .icon {
   position: absolute;
-  right: 10%;
-  top: 10%;
+  /* right: 10%;
+  top: 10%; */
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -905,6 +905,16 @@ a:hover {
   opacity: 0;
   visibility: hidden;
 }
+
+.topIcon {
+  right: 10%;
+  top: 10%;
+}
+.bottomIcon {
+  right: 10%;
+  bottom: 10%;
+}
+
 .portfolio .item-img-overlay .des {
   position: absolute;
   bottom: 10%;
