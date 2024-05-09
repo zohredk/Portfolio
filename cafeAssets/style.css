@@ -1,0 +1,133 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    font-size: 100%;
+    border-style: none;
+    list-style-type: none;
+    }
+    
+    
+    body{
+        font-family:  Helvetica, calibri, sans-serif;
+        background-color: #939393;
+        color: #fafafa;
+    }
+    
+    #wrapper {
+        background-color: #273149;
+        max-width: 1170px;      
+        margin: auto;     
+    }
+    
+    #inner-wrapper{
+        max-width: 1020px;
+        margin: auto;
+        padding-top: 60px;
+    }
+
+    #topper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+        width: 330px;
+        margin-top: 10px;    
+    }
+    
+    nav ul {
+        display: flex;   
+        justify-content: space-between;  
+    }
+     
+    nav a{ 
+        font-size: 20px;
+        color:#fafafa;
+        text-decoration:none;
+    }
+    
+    nav a:hover{ 
+        color: #939393;
+    }
+
+    #current {
+        color: #bbcfe1;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    section{
+        margin: 140px 40px auto auto;
+    }
+    section ul{
+        margin-top: 10px;
+        line-height: 1.8em;
+    }
+
+    h1 {
+        font-size:23px;
+    }
+    
+    h2 {
+        font-size: 19px;
+        margin-top: 15px;
+    }
+
+    p{
+        margin: 12px auto auto auto;
+        font-size:17px;
+        line-height: 1.5em;
+    }
+    
+    section a{
+        color: #b6ef1d;
+        text-decoration: none;
+    }
+    
+    section a:hover{
+        text-decoration: underline;
+    }
+
+    
+    footer ul{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        width: 650px;
+        margin: 35px auto auto auto;
+        padding-bottom: 35px;
+    
+    }
+    
+    footer a{
+        color :#fafafa;
+        text-decoration:none;
+    }
+    footer a:hover{
+        color: #939393;
+        text-decoration: underline;
+    }
+
+
+    #promo{
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    #promo img{
+        border: 1px solid white;
+        margin-right: 20px;
+    }
+
+    #promo p{
+        margin-top: 0px;
+    }
+
+    iframe{
+        margin-top: 15px;
+    }
