@@ -420,9 +420,11 @@ a:hover {
 }
 .home .img img {
   position: relative;
-  margin-left: 130px;
+  margin-left: 60px;
   z-index: 2;
+  width: 450px;
 }
+
 .home .content:after {
   content: "";
   position: absolute;
@@ -1049,6 +1051,7 @@ a:hover {
   border-bottom: 1px solid #2a2a2e;
   background: #12141c;
   font-size: 13px;
+  color: #fff;
 }
 .contact input:focus,
 .contact textarea:focus {
