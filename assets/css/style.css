@@ -422,7 +422,6 @@ a:hover {
   position: relative;
   margin-left: 60px;
   z-index: 2;
-  width: 450px;
 }
 
 .home .content:after {
@@ -1043,6 +1042,10 @@ a:hover {
   border-bottom: 1px solid #2d2d32;
 }
 
+/* input::placeholder {
+  color: #ffffff;
+} */
+
 .contact input,
 .contact textarea {
   width: 100%;
@@ -1189,7 +1192,12 @@ a:hover {
   .home .content .caption .social {
     top: auto;
     margin-left: 0;
-    margin-top: 20px;
+  }
+
+  .home .content .caption .CV {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .resume .exp .date,
